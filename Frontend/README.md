@@ -1,4 +1,4 @@
-# 🧠 Ezy — AI Chatbot for RentNepal [EZY](https://ezy-kappa.vercel.app/)(Still uses old bot, needs time to change)
+# 🧠 Ezy — AI Chatbot for RentNepal [EZY](https://ezy-kappa.vercel.app/)
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
