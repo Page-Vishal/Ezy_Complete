@@ -1,0 +1,88 @@
+
+.chat-message {
+    max-width: 70%;
+    padding: 0px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    white-space: pre-wrap; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 16px;
+}
+
+.user {
+    align-self: flex-start;
+    background-color: #0084ff;
+    color: white;
+    text-align: left;
+    border-radius: 15px 15px 5px 15px;
+    padding: 12px 15px;
+    margin-left: 10px;
+}
+
+
+.bot {
+    align-self: flex-end; /* Align bot messages to the right */
+    background-color: #e5e5ea;
+    color: black;
+    text-align: left;
+    border-radius: 15px 15px 15px 5px;
+    padding: 12px 15px;
+    margin-right: 10px; /* Push bot messages to the right */
+}
+.chat-input-form {
+    display: flex;
+    padding: 8px;
+    border-top: 1px solid #ddd;
+    background: white;
+}
+
+.chat-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    background-color: #cccccc;
+    color: #303030;
+}
+.send-button {
+    margin-left: 10px;
+    padding: 12px 20px;
+    border: none;
+    background: #886cd7;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+}
+
+.send-button:hover {
+    background: #a083f1;
+}
+
+/* For Chrome, Edge, and Safari */
+.chat-history::-webkit-scrollbar {
+    width: 10px; /* Slightly wider for a rounded look */
+    border-radius: 15px;
+}
+  
+.chat-history::-webkit-scrollbar-track {
+    background: #111; /* Dark black track */
+    border-radius: 12px; /* Rounded edges */
+}
+  
+.chat-history::-webkit-scrollbar-thumb {
+    background: rgba(0, 132, 255, 0.7);
+    border-radius: 15px; /* Rounded scrollbar */
+    transition: background 0.3s ease-in-out;
+}
+  
+.chat-history::-webkit-scrollbar-thumb:hover {
+    background: #444; /* Slightly lighter on hover */
+}
